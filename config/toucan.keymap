@@ -30,21 +30,21 @@
         nav {
             display-name = "NAV";
             bindings = <
-&kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp BSPC  &kp LEFT_SHIFT  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp DELETE  &kp LSHFT  &kp F11  &kp F12  &trans  &studio_unlock  &kp ESC  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp INTERNATIONAL_5  &kp INTERNATIONAL_4  &kp LEFT_ALT  &kp SPACE  &trans  &mo 3  &kp RETURN  &kp LEFT_GUI
+&kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp BSPC  &kp LEFT_SHIFT  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp DELETE  &kp LEFT_CONTROL  &kp F11  &kp F12  &trans  &studio_unlock  &kp ESC  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp INTERNATIONAL_5  &kp INTERNATIONAL_4  &kp LEFT_ALT  &kp SPACE  &trans  &mo 3  &kp RETURN  &kp LEFT_GUI
             >;
         };
 
         sym {
             display-name = "SYM";
             bindings = <
-&kp TAB  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp ASTERISK  &kp LPAR  &kp INTERNATIONAL_3  &kp BSPC  &kp LEFT_SHIFT  &kp CAPSLOCK  &kp INSERT  &kp HOME  &kp PAGE_DOWN  &kp PG_UP  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH  &kp DELETE  &kp LEFT_CONTROL  &kp END  &trans  &kp C_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE  &kp K_APP  &kp LEFT_ALT  &kp SPACE  &mo 3  &trans  &kp RETURN  &kp LEFT_GUI
+&kp TAB  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp ASTERISK  &kp LPAR  &kp INTERNATIONAL_3  &kp BSPC  &kp LEFT_SHIFT  &kp CAPSLOCK  &kp INSERT  &kp HOME  &kp PAGE_DOWN  &kp PG_UP  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH  &kp DELETE  &kp LEFT_CONTROL  &kp END  &trans  &kp C_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE  &kp K_APP  &kp C_PREVIOUS  &kp SPACE  &mo 3  &trans  &kp RETURN  &kp C_NEXT
             >;
         };
 
         adj {
             display-name = "ADJ";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp C_VOL_DN  &kp C_MUTE  &kp C_VOL_UP  &trans  &trans  &kp BSPC  &kp LEFT_SHIFT  &kp CAPSLOCK  &kp INSERT  &kp HOME  &kp PG_UP  &kp PAGE_DOWN  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_CONTROL  &kp END  &trans  &kp C_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans  &trans  &trans  &trans  &trans  &trans  &kp LGUI  &mo NAV  &kp SPACE  &kp RET  &mo 2  &kp RALT
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp C_VOL_DN  &kp C_MUTE  &kp C_VOL_UP  &trans  &trans  &kp BSPC  &kp LEFT_SHIFT  &kp CAPSLOCK  &kp INSERT  &kp HOME  &kp PG_UP  &kp PAGE_DOWN  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_CONTROL  &kp END  &trans  &kp C_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans  &trans  &trans  &trans  &trans  &trans  &kp C_PREVIOUS  &kp SPACE  &trans  &trans  &kp RETURN  &kp C_NEXT
             >;
         };
 
