@@ -76,6 +76,7 @@
 
 // マウス3種のクリックの追加
 // 下になるほど指の本数を増やす
+
 &zip_tap_processor {
     status = "okay";
     one_finger_button = <BTN_LEFT>;
