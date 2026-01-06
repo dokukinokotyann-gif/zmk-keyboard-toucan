@@ -22,7 +22,7 @@
 / {
     //conditional_layers {
     //    compatible = "zmk,conditional-layers";
-
+    //
     //    tri_layer {
     //        if-layers = <1 2>;
     //        then-layer = <3>;
@@ -60,7 +60,12 @@
             >;
         };
 
-        extra_1 { status = "reserved"; };
+        ult {
+            display-name = "ULT";
+            bindings = <
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp KP_NUMLOCK  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans  &kp BSPC  &trans  &kp C_AL_MY_COMPUTER  &kp C_AL_CALCULATOR  &kp PRINTSCREEN  &trans  &trans  &kp DOT  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp COMMA  &kp DELETE  &trans  &kp C_AC_SEARCH  &kp C_AC_HOME  &kp C_AC_REFRESH  &kp C_SLEEP  &kp C_POWER  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans  &trans  &trans  &kp SPACE  &trans  &trans  &kp RETURN  &trans
+            >;
+        };
 
         extra_2 { status = "reserved"; };
 
