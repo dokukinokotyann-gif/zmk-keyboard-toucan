@@ -40,24 +40,24 @@
             >;
         };
 
-        nav {
-            display-name = "NAV";
+        num {
+            display-name = "NUM";
             bindings = <
-&kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp BSPC  &kp LEFT_SHIFT  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp DELETE  &kp LEFT_CONTROL  &kp F11  &kp F12  &trans  &studio_unlock  &kp ESC  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp INTERNATIONAL_5  &kp INTERNATIONAL_4  &kp LEFT_ALT  &kp SPACE  &trans  &mo 3  &kp RETURN  &kp LEFT_GUI
+&kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp BSPC  &kp LEFT_SHIFT  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp DELETE  &kp LEFT_CONTROL  &kp F11  &kp F12  &none  &studio_unlock  &kp ESC  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp INTERNATIONAL_5  &kp INTERNATIONAL_4  &kp LEFT_ALT  &kp SPACE  &trans  &mo 3  &kp RETURN  &kp LEFT_GUI
             >;
         };
 
         sym {
             display-name = "SYM";
             bindings = <
-&kp TAB  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp ASTERISK  &kp LPAR  &kp INTERNATIONAL_3  &kp BSPC  &kp LEFT_SHIFT  &kp CAPSLOCK  &kp INSERT  &kp HOME  &kp PAGE_DOWN  &kp PG_UP  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH  &kp DELETE  &kp LEFT_CONTROL  &kp END  &trans  &kp C_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE  &kp K_APP  &kp C_PREVIOUS  &kp SPACE  &mo 3  &trans  &kp RETURN  &kp C_NEXT
+&kp TAB  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp ASTERISK  &kp LPAR  &kp INTERNATIONAL_3  &kp BSPC  &kp LEFT_SHIFT  &kp CAPSLOCK  &kp INSERT  &kp HOME  &kp PAGE_DOWN  &kp PG_UP  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH  &kp DELETE  &kp LEFT_CONTROL  &kp END  &none  &kp C_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE  &kp K_APP  &kp C_PREVIOUS  &kp SPACE  &mo 3  &trans  &kp RETURN  &kp C_NEXT
             >;
         };
 
         adj {
             display-name = "ADJ";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp KP_NUMLOCK  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans  &kp BSPC  &trans  &kp C_AL_MY_COMPUTER  &kp C_AL_CALCULATOR  &kp PRINTSCREEN  &trans  &trans  &kp DOT  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp COMMA  &kp DELETE  &trans  &kp C_AC_SEARCH  &kp C_AC_HOME  &kp C_AC_REFRESH  &kp C_SLEEP  &kp C_POWER  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans  &trans  &trans  &kp SPACE  &trans  &trans  &kp RETURN  &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp KP_NUMLOCK  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans  &kp BSPC  &trans  &kp C_AL_MY_COMPUTER  &kp C_AL_CALCULATOR  &kp PRINTSCREEN  &trans  &trans  &kp DOT  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp COMMA  &kp DELETE  &trans  &kp C_AC_SEARCH  &kp C_AC_HOME  &kp C_AC_REFRESH  &kp C_SLEEP  &kp C_POWER  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans  &trans  &trans  &kp SPACE  &trans  &trans  &kp RETURN  &sl 4
             >;
         };
 
