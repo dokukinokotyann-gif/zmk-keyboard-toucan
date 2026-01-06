@@ -74,8 +74,10 @@
     // input-processors = <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
 };
 
-// マウス3種のクリックの追加
-// 下になるほど指の本数を増やす
+/*
+マウス3種のクリックの追加
+下になるほど指の本数を増やす
+*/
 
 &zip_tap_processor {
     status = "okay";
