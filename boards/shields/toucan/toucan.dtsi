@@ -103,7 +103,7 @@
         };
     };
 
-    // クリックの定義
+    /*クリックの定義*/
 
     zip_tap_processor: zip_tap_processor {
         compatible = "zmk,input-processor-tap";
