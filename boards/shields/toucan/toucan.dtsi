@@ -103,27 +103,16 @@
         };
     };
 
-    /*クリックの定義*/
-
-    zip_tap_processor: zip_tap_processor {
-        compatible = "zmk,input-processor-tap";
-        status = "okay";
-
-        one_finger_button = <BTN_LEFT>;
-        two_finger_button = <BTN_RIGHT>;
-        three_finger_button = <BTN_MIDDLE>;
-    };
-
     glidepoint_listener: glidepoint_listener {
         compatible = "zmk,input-listener";
         status = "disabled";
         device = <&glidepoint_split>;
-        input-processors = <&zip_xy_scaler 550 400>;
+        input-processors = <&zip_xy_scaler 900 700>;
         scroller {
             layers = <1 2>;
             input-processors = <
                 &zip_xy_to_scroll_mapper
-                &zip_scroll_scaler 1 4
+                &zip_scroll_scaler 1 3
                 &zip_scroll_transform INPUT_TRANSFORM_X_INVERT
             >;
         };
