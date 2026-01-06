@@ -80,5 +80,5 @@
     status = "okay";
     one_finger_button = <BTN_LEFT>;
     two_finger_button = <BTN_RIGHT>;
-    three_finger_button = <BTN_MIDDLE>;
+    //three_finger_button = <BTN_MIDDLE>;
 };
